@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RxMKMapView'
-  s.version          = '4.4.0'
+  s.version          = '5.0'
   s.summary          = 'Reactive wrapper for MKMapView `delegate`'
   s.description      = <<-DESC
 RxMKMapView is a Reactive wrapper for MKMapView `delegate`.
@@ -57,7 +57,7 @@ DESC
   s.license             = 'MIT'
   s.author              = { 'RxSwift Community' => 'community@rxswift.org' }
   s.source              = { :git => 'https://github.com/RxSwiftCommunity/RxMKMapView.git', :tag => s.version.to_s }
-  s.platform            = :ios, '8.0'
+  s.platform            = :ios, '10.3'
   s.requires_arc        = true
 
   s.source_files        = 'Sources/**/*.swift'
