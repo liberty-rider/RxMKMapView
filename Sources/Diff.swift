@@ -21,8 +21,8 @@ private struct BoxedHashable<T: NSObjectProtocol>: Hashable {
         self.value = value
     }
 
-    public var hashValue: Int {
-        return self.value.hash
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(self.value.hash)
     }
 
     public static func == (lhs: BoxedHashable, rhs: BoxedHashable) -> Bool {

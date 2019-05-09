@@ -61,6 +61,7 @@
 				2B58CA5320E0F6C500D521A9 /* RxMKMapView */,
 				2B58CA5220E0F6C500D521A9 /* Products */,
 				2B58CA7820E0F86700D521A9 /* Frameworks */,
+				7FD8546B1F2D239D2D15903F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +90,13 @@
 				2B58CA7920E0F86700D521A9 /* RxSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FD8546B1F2D239D2D15903F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +143,7 @@
 				TargetAttributes = {
 					2B58CA5020E0F6C500D521A9 = {
 						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -145,6 +153,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2B58CA4720E0F6C500D521A9;
 			productRefGroup = 2B58CA5220E0F6C500D521A9 /* Products */;
@@ -311,10 +320,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = RxMKMapView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -326,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.rxswift.community.RxMKMapView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -340,10 +346,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = RxMKMapView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -355,7 +358,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.rxswift.community.RxMKMapView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
