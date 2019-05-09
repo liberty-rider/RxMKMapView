@@ -3,11 +3,6 @@ RxMKMapView
 
 RxMKMapView is a [RxSwift](https://github.com/ReactiveX/RxSwift) wrapper for MKMapView (MapKit) `delegate` providing a Reactive Delegate Proxy as well as a bindable annotations interface to dynamically change the "data source" of your map.
 
-[![CircleCI](https://circleci.com/gh/RxSwiftCommunity/RxMKMapView.svg?style=svg)](https://circleci.com/gh/RxSwiftCommunity/RxMKMapView)
-[![Version](https://img.shields.io/cocoapods/v/RxMKMapView.svg?style=flat)](http://cocoapods.org/pods/RxMKMapView)
-[![License](https://img.shields.io/cocoapods/l/RxMKMapView.svg?style=flat)](http://cocoapods.org/pods/RxMKMapView)
-[![Platform](https://img.shields.io/cocoapods/p/RxMKMapView.svg?style=flat)](http://cocoapods.org/pods/RxMKMapView)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 ## Installation
 
@@ -62,7 +57,7 @@ mapView.rx.didFinishLoadingMap
 
 ## Requirements
 
-RxMKMapView requires Swift 4.0 and RxSwift (4.4).
+RxMKMapView requires Swift (5.0 and RxSwift (5.0).
 
 ## License
 
