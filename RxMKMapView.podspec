@@ -9,8 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = 'RxMKMapView'
   s.version          = '5.0'
+  s.swift-version    = '5.0'
   s.summary          = 'Reactive wrapper for MKMapView `delegate`'
   s.description      = <<-DESC
+  
 RxMKMapView is a Reactive wrapper for MKMapView `delegate`.
 
 ## Installation
